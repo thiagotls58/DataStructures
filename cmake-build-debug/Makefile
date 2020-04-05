@@ -123,6 +123,33 @@ DataStructures/fast:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/build
 .PHONY : DataStructures/fast
 
+global.o: global.c.o
+
+.PHONY : global.o
+
+# target to build an object file
+global.c.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/global.c.o
+.PHONY : global.c.o
+
+global.i: global.c.i
+
+.PHONY : global.i
+
+# target to preprocess a source file
+global.c.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/global.c.i
+.PHONY : global.c.i
+
+global.s: global.c.s
+
+.PHONY : global.s
+
+# target to generate assembly for a file
+global.c.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/global.c.s
+.PHONY : global.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... DataStructures"
 	@echo "... edit_cache"
+	@echo "... global.o"
+	@echo "... global.i"
+	@echo "... global.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

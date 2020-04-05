@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/media/thiago/Dacar/CLionProjects/DataStructures/global.c" "/media/thiago/Dacar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/global.c.o"
   "/media/thiago/Dacar/CLionProjects/DataStructures/main.c" "/media/thiago/Dacar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

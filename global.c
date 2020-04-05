@@ -1,0 +1,22 @@
+//
+// Created by thiago on 05/04/2020.
+//
+
+#include "global.h"
+
+void clearTerminal(void) {
+    system(CLEAR);
+}
+
+void pauseTerminal(void) {
+    fflush(stdin);
+    if (PAUSE == 1) {
+        system("pause");
+    } else if (PAUSE == 0) {
+        for (int i = 0; i < 2; ++i) {
+            printf("\n");
+        }
+        system("read -p \"Press ENTER to exit\" going out");
+    }
+    fflush(stdin);
+}

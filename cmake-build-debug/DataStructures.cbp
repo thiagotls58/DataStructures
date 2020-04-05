@@ -78,7 +78,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/media/thiago/Dacar/CLionProjects/DataStructures/global.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/media/thiago/Dacar/CLionProjects/DataStructures/global.h">
+			<Option target="DataStructures"/>
+		</Unit>
 		<Unit filename="/media/thiago/Dacar/CLionProjects/DataStructures/main.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/media/thiago/Dacar/CLionProjects/DataStructures/main.h">
 			<Option target="DataStructures"/>
 		</Unit>
 		<Unit filename="/media/thiago/Dacar/CLionProjects/DataStructures/CMakeLists.txt">

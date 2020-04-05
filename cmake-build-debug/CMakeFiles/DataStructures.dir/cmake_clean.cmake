@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DataStructures.dir/global.c.o"
   "CMakeFiles/DataStructures.dir/main.c.o"
   "DataStructures"
   "DataStructures.pdb"
