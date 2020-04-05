@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/thiago/Dacar/CLionProjects/DataStructures/global.h
+stdlib.h
+-
+stdio.h
+-
+
+/media/thiago/Dacar/CLionProjects/DataStructures/main.c
+main.h
+/media/thiago/Dacar/CLionProjects/DataStructures/main.h
+
+/media/thiago/Dacar/CLionProjects/DataStructures/main.h
+global.h
+/media/thiago/Dacar/CLionProjects/DataStructures/global.h
+
