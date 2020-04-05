@@ -1,0 +1,3 @@
+/media/thiago/Dacar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/thiago/Dacar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir
+/media/thiago/Dacar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/edit_cache.dir
