@@ -6,10 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/media/thiago/Dacar/CLionProjects/DataStructures/Queue/Queue.h
+../global.h
+/media/thiago/Dacar/CLionProjects/DataStructures/global.h
+
 /media/thiago/Dacar/CLionProjects/DataStructures/global.h
 stdlib.h
 -
 stdio.h
+-
+stdbool.h
+-
+ctype.h
 -
 
 /media/thiago/Dacar/CLionProjects/DataStructures/main.c
@@ -19,4 +27,6 @@ main.h
 /media/thiago/Dacar/CLionProjects/DataStructures/main.h
 global.h
 /media/thiago/Dacar/CLionProjects/DataStructures/global.h
+Queue/Queue.h
+/media/thiago/Dacar/CLionProjects/DataStructures/Queue/Queue.h
 

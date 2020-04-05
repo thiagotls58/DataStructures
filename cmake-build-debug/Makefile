@@ -123,6 +123,60 @@ DataStructures/fast:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/build
 .PHONY : DataStructures/fast
 
+Queue/OperationsQueue.o: Queue/OperationsQueue.c.o
+
+.PHONY : Queue/OperationsQueue.o
+
+# target to build an object file
+Queue/OperationsQueue.c.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Queue/OperationsQueue.c.o
+.PHONY : Queue/OperationsQueue.c.o
+
+Queue/OperationsQueue.i: Queue/OperationsQueue.c.i
+
+.PHONY : Queue/OperationsQueue.i
+
+# target to preprocess a source file
+Queue/OperationsQueue.c.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Queue/OperationsQueue.c.i
+.PHONY : Queue/OperationsQueue.c.i
+
+Queue/OperationsQueue.s: Queue/OperationsQueue.c.s
+
+.PHONY : Queue/OperationsQueue.s
+
+# target to generate assembly for a file
+Queue/OperationsQueue.c.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Queue/OperationsQueue.c.s
+.PHONY : Queue/OperationsQueue.c.s
+
+Queue/Queue.o: Queue/Queue.c.o
+
+.PHONY : Queue/Queue.o
+
+# target to build an object file
+Queue/Queue.c.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Queue/Queue.c.o
+.PHONY : Queue/Queue.c.o
+
+Queue/Queue.i: Queue/Queue.c.i
+
+.PHONY : Queue/Queue.i
+
+# target to preprocess a source file
+Queue/Queue.c.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Queue/Queue.c.i
+.PHONY : Queue/Queue.c.i
+
+Queue/Queue.s: Queue/Queue.c.s
+
+.PHONY : Queue/Queue.s
+
+# target to generate assembly for a file
+Queue/Queue.c.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Queue/Queue.c.s
+.PHONY : Queue/Queue.c.s
+
 global.o: global.c.o
 
 .PHONY : global.o
@@ -186,6 +240,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... DataStructures"
 	@echo "... edit_cache"
+	@echo "... Queue/OperationsQueue.o"
+	@echo "... Queue/OperationsQueue.i"
+	@echo "... Queue/OperationsQueue.s"
+	@echo "... Queue/Queue.o"
+	@echo "... Queue/Queue.i"
+	@echo "... Queue/Queue.s"
 	@echo "... global.o"
 	@echo "... global.i"
 	@echo "... global.s"

@@ -4,8 +4,7 @@ char menu(void) {
     clearTerminal();
     printf("[1] - Stack\n");
     printf("[2] - Queue\n");
-    fflush(stdin);
-    return getchar();
+    return toupper(getchar());
 }
 
 void execute(void) {
@@ -17,14 +16,11 @@ void execute(void) {
                 clearTerminal();
                 printf("Stack");
                 //executeStack();
-                pauseTerminal();
                 break;
             }
             case '2': {
                 clearTerminal();
-                printf("Queue");
-                //executeQueue();
-                pauseTerminal();
+                executeQueue();
                 break;
             }
 
@@ -35,6 +31,7 @@ void execute(void) {
 
 int main() {
     execute();
-    pauseTerminal();
-    return 0;
+    clearTerminal();
+    printf("\nGoing out...\n");
+    return EXIT_SUCCESS;
 }

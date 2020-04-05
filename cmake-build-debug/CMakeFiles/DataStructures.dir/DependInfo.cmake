@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/media/thiago/Dacar/CLionProjects/DataStructures/Queue/OperationsQueue.c" "/media/thiago/Dacar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/Queue/OperationsQueue.c.o"
+  "/media/thiago/Dacar/CLionProjects/DataStructures/Queue/Queue.c" "/media/thiago/Dacar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/Queue/Queue.c.o"
   "/media/thiago/Dacar/CLionProjects/DataStructures/global.c" "/media/thiago/Dacar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/global.c.o"
   "/media/thiago/Dacar/CLionProjects/DataStructures/main.c" "/media/thiago/Dacar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/main.c.o"
   )

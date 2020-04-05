@@ -7,6 +7,8 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdbool.h>
+#include <ctype.h>
 
 #ifdef _WIN32
 #define CLEAR "cls"
@@ -22,5 +24,6 @@
 
 void clearTerminal(void);
 void pauseTerminal(void);
+void clearKeyboardBuffer(void);
 
 #endif //DATASTRUCTURES_GLOBAL_H

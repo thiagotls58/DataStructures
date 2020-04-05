@@ -3,4 +3,4 @@ project(DataStructures C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(DataStructures main.c main.h global.c global.h)
+add_executable(DataStructures main.c main.h global.c global.h Queue/Queue.c Queue/Queue.h Queue/OperationsQueue.c)

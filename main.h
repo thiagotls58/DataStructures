@@ -6,6 +6,7 @@
 #define DATASTRUCTURES_MAIN_H
 
 #include "global.h"
+#include "Queue/Queue.h"
 
 char menu(void);
 void execute(void);

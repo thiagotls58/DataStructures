@@ -9,14 +9,17 @@ void clearTerminal(void) {
 }
 
 void pauseTerminal(void) {
-    fflush(stdin);
     if (PAUSE == 1) {
         system("pause");
     } else if (PAUSE == 0) {
         for (int i = 0; i < 2; ++i) {
             printf("\n");
         }
-        system("read -p \"Press ENTER to exit\" going out");
+        system("read -p \"Press ENTER to continue\" continue");
     }
-    fflush(stdin);
+}
+
+void clearKeyboardBuffer(void) {
+    int key = 0;
+    while((key = getchar()) != '\n' && key != EOF) {}
 }
