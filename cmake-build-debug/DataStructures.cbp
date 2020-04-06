@@ -87,6 +87,15 @@
 		<Unit filename="/media/thiago/Dacar/CLionProjects/DataStructures/Queue/Queue.h">
 			<Option target="DataStructures"/>
 		</Unit>
+		<Unit filename="/media/thiago/Dacar/CLionProjects/DataStructures/Stack/OperationsStack.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/media/thiago/Dacar/CLionProjects/DataStructures/Stack/Stack.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/media/thiago/Dacar/CLionProjects/DataStructures/Stack/Stack.h">
+			<Option target="DataStructures"/>
+		</Unit>
 		<Unit filename="/media/thiago/Dacar/CLionProjects/DataStructures/global.c">
 			<Option target="DataStructures"/>
 		</Unit>

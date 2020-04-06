@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/media/thiago/Dacar/CLionProjects/DataStructures/Queue/OperationsQueue.c
+Queue.h
 /media/thiago/Dacar/CLionProjects/DataStructures/Queue/Queue.h
+
+/media/thiago/Dacar/CLionProjects/DataStructures/Queue/Queue.c
+Queue.h
+/media/thiago/Dacar/CLionProjects/DataStructures/Queue/Queue.h
+
+/media/thiago/Dacar/CLionProjects/DataStructures/Queue/Queue.h
+../global.h
+/media/thiago/Dacar/CLionProjects/DataStructures/global.h
+
+/media/thiago/Dacar/CLionProjects/DataStructures/Stack/Stack.h
 ../global.h
 /media/thiago/Dacar/CLionProjects/DataStructures/global.h
 
@@ -29,4 +41,6 @@ global.h
 /media/thiago/Dacar/CLionProjects/DataStructures/global.h
 Queue/Queue.h
 /media/thiago/Dacar/CLionProjects/DataStructures/Queue/Queue.h
+Stack/Stack.h
+/media/thiago/Dacar/CLionProjects/DataStructures/Stack/Stack.h
 

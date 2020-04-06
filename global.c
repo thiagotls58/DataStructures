@@ -21,5 +21,5 @@ void pauseTerminal(void) {
 
 void clearKeyboardBuffer(void) {
     int key = 0;
-    while((key = getchar()) != '\n' && key != EOF) {}
+    while ((key = getchar()) != '\n' && key != EOF) {}
 }

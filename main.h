@@ -7,8 +7,10 @@
 
 #include "global.h"
 #include "Queue/Queue.h"
+#include "Stack/Stack.h"
 
 char menu(void);
+
 void execute(void);
 
 #endif //DATASTRUCTURES_MAIN_H

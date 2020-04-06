@@ -23,7 +23,9 @@
 #endif
 
 void clearTerminal(void);
+
 void pauseTerminal(void);
+
 void clearKeyboardBuffer(void);
 
 #endif //DATASTRUCTURES_GLOBAL_H

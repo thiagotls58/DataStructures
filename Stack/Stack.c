@@ -2,69 +2,69 @@
 // Created by thiago on 05/04/2020.
 //
 
-#include "Queue.h"
+#include "Stack.h"
 
-char menuQueue(void) {
+char menuStack(void) {
     clearTerminal();
-    printf("Queue\n");
+    printf("Stack\n");
     printf("[1] - Init\n");
-    printf("[2] - Enqueue\n");
-    printf("[3] - Dequeue\n");
-    printf("[4] - First Info\n");
+    printf("[2] - Push\n");
+    printf("[3] - Pop\n");
+    printf("[4] - Top Info\n");
     printf("[5] - Empty \n");
-    printf("[6] - Print Queue \n");
+    printf("[6] - Print Stack \n");
     return toupper(getchar());
 }
 
-void executeQueue(void) {
-    struct TpQueueChar *queue;
+void executeStack(void) {
+    struct TpStackChar *stack;
     char option, info;
     do {
-        option = menuQueue();
+        option = menuStack();
         switch (option) {
             case '1': {
                 clearTerminal();
-                initQueue(&queue);
-                printf("The queue was successfully initialized");
+                initStack(&stack);
+                printf("The stack was successfully initialized");
                 pauseTerminal();
                 break;
             }
             case '2': {
                 clearTerminal();
-                info = inputInfoQueue();
+                info = inputInfoStack();
                 while (info != '0') {
-                    enqueue(&queue, info);
-                    printf("Element inserted in the queue");
+                    push(&stack, info);
+                    printf("Info inserted in the stack");
                     pauseTerminal();
-                    info = inputInfoQueue();
+                    info = inputInfoStack();
                 }
                 break;
             }
             case '3': {
                 clearTerminal();
-                if (isEmptyQueue(queue)) {
-                    printf("The queue is empty");
+                if (isEmptyStack(stack)) {
+                    printf("The stack is empty");
                 } else {
-                    info = dequeue(&queue);
-                    printf("The info '%c' has been removed from the queue", info);
+                    info = pop(&stack);
+                    printf("The info '%c' has been removed from the stack", info);
                 }
                 pauseTerminal();
                 break;
             }
             case '4': {
                 clearTerminal();
-                if (isEmptyQueue(queue)) {
-                    printf("The queue is empty");
+                if (isEmptyStack(stack)) {
+                    printf("The stack is empty");
                 } else {
-                    info = firstInfo(queue);
-                    printf("The first info of the queue  is the: '%c'", info);
+                    info = topInfo(stack);
+                    printf("The top info of the stack  is the: '%c'", info);
                 }
                 pauseTerminal();
                 break;
             }
             case '5': {
                 clearTerminal();
-                if (isEmptyQueue(queue)) {
+                if (isEmptyStack(stack)) {
                     printf("Yes!");
                 } else {
                     printf("No!");
@@ -74,12 +74,12 @@ void executeQueue(void) {
             }
             case '6': {
                 clearTerminal();
-                if (isEmptyQueue(queue)) {
-                    printf("The queue is empty");
+                if (isEmptyStack(stack)) {
+                    printf("The stack is empty");
                 } else {
-                    printf("Queue ");
+                    printf("Stack ");
                     printf("[");
-                    printQueue(queue);
+                    printStack(stack);
                     printf("]\n");
                 }
                 pauseTerminal();
@@ -87,10 +87,10 @@ void executeQueue(void) {
             }
         }
 
-    } while (option != 81); // => Q
+    } while (option != 81);
 }
 
-char inputInfoQueue() {
+char inputInfoStack() {
     clearTerminal();
     printf("Info: ");
     char info;

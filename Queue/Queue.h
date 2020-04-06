@@ -9,20 +9,28 @@
 
 struct TpQueueChar {
     char info;
-    struct TpQueueChar* next;
+    struct TpQueueChar *next;
 };
 
 char menuQueue(void);
+
 void executeQueue(void);
+
 char inputInfoQueue();
 
 // Operations Queue
-void init(struct TpQueueChar** queue);
-bool isEmpty(struct TpQueueChar* queue);
-struct TpQueueChar* createNodeQueue(char info);
-void enqueue(struct TpQueueChar** queue, char info);
-char dequeue(struct TpQueueChar** queue);
-char firstInfo(struct TpQueueChar* queue);
-void printStack(struct TpQueueChar* queue);
+void initQueue(struct TpQueueChar **queue);
+
+bool isEmptyQueue(struct TpQueueChar *queue);
+
+struct TpQueueChar *createNodeQueue(char info);
+
+void enqueue(struct TpQueueChar **queue, char info);
+
+char dequeue(struct TpQueueChar **queue);
+
+char firstInfo(struct TpQueueChar *queue);
+
+void printQueue(struct TpQueueChar *queue);
 
 #endif //DATASTRUCTURES_QUEUE_H

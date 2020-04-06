@@ -177,6 +177,60 @@ Queue/Queue.c.s:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Queue/Queue.c.s
 .PHONY : Queue/Queue.c.s
 
+Stack/OperationsStack.o: Stack/OperationsStack.c.o
+
+.PHONY : Stack/OperationsStack.o
+
+# target to build an object file
+Stack/OperationsStack.c.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Stack/OperationsStack.c.o
+.PHONY : Stack/OperationsStack.c.o
+
+Stack/OperationsStack.i: Stack/OperationsStack.c.i
+
+.PHONY : Stack/OperationsStack.i
+
+# target to preprocess a source file
+Stack/OperationsStack.c.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Stack/OperationsStack.c.i
+.PHONY : Stack/OperationsStack.c.i
+
+Stack/OperationsStack.s: Stack/OperationsStack.c.s
+
+.PHONY : Stack/OperationsStack.s
+
+# target to generate assembly for a file
+Stack/OperationsStack.c.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Stack/OperationsStack.c.s
+.PHONY : Stack/OperationsStack.c.s
+
+Stack/Stack.o: Stack/Stack.c.o
+
+.PHONY : Stack/Stack.o
+
+# target to build an object file
+Stack/Stack.c.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Stack/Stack.c.o
+.PHONY : Stack/Stack.c.o
+
+Stack/Stack.i: Stack/Stack.c.i
+
+.PHONY : Stack/Stack.i
+
+# target to preprocess a source file
+Stack/Stack.c.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Stack/Stack.c.i
+.PHONY : Stack/Stack.c.i
+
+Stack/Stack.s: Stack/Stack.c.s
+
+.PHONY : Stack/Stack.s
+
+# target to generate assembly for a file
+Stack/Stack.c.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Stack/Stack.c.s
+.PHONY : Stack/Stack.c.s
+
 global.o: global.c.o
 
 .PHONY : global.o
@@ -246,6 +300,12 @@ help:
 	@echo "... Queue/Queue.o"
 	@echo "... Queue/Queue.i"
 	@echo "... Queue/Queue.s"
+	@echo "... Stack/OperationsStack.o"
+	@echo "... Stack/OperationsStack.i"
+	@echo "... Stack/OperationsStack.s"
+	@echo "... Stack/Stack.o"
+	@echo "... Stack/Stack.i"
+	@echo "... Stack/Stack.s"
 	@echo "... global.o"
 	@echo "... global.i"
 	@echo "... global.s"

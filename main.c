@@ -15,7 +15,7 @@ void execute(void) {
             case '1': {
                 clearTerminal();
                 printf("Stack");
-                //executeStack();
+                executeStack();
                 break;
             }
             case '2': {
