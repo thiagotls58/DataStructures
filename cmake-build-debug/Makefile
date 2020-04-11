@@ -123,6 +123,60 @@ DataStructures/fast:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/build
 .PHONY : DataStructures/fast
 
+Hash/OperationsHash.o: Hash/OperationsHash.c.o
+
+.PHONY : Hash/OperationsHash.o
+
+# target to build an object file
+Hash/OperationsHash.c.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Hash/OperationsHash.c.o
+.PHONY : Hash/OperationsHash.c.o
+
+Hash/OperationsHash.i: Hash/OperationsHash.c.i
+
+.PHONY : Hash/OperationsHash.i
+
+# target to preprocess a source file
+Hash/OperationsHash.c.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Hash/OperationsHash.c.i
+.PHONY : Hash/OperationsHash.c.i
+
+Hash/OperationsHash.s: Hash/OperationsHash.c.s
+
+.PHONY : Hash/OperationsHash.s
+
+# target to generate assembly for a file
+Hash/OperationsHash.c.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Hash/OperationsHash.c.s
+.PHONY : Hash/OperationsHash.c.s
+
+Hash/hash.o: Hash/hash.c.o
+
+.PHONY : Hash/hash.o
+
+# target to build an object file
+Hash/hash.c.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Hash/hash.c.o
+.PHONY : Hash/hash.c.o
+
+Hash/hash.i: Hash/hash.c.i
+
+.PHONY : Hash/hash.i
+
+# target to preprocess a source file
+Hash/hash.c.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Hash/hash.c.i
+.PHONY : Hash/hash.c.i
+
+Hash/hash.s: Hash/hash.c.s
+
+.PHONY : Hash/hash.s
+
+# target to generate assembly for a file
+Hash/hash.c.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/Hash/hash.c.s
+.PHONY : Hash/hash.c.s
+
 Queue/OperationsQueue.o: Queue/OperationsQueue.c.o
 
 .PHONY : Queue/OperationsQueue.o
@@ -294,6 +348,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... DataStructures"
 	@echo "... edit_cache"
+	@echo "... Hash/OperationsHash.o"
+	@echo "... Hash/OperationsHash.i"
+	@echo "... Hash/OperationsHash.s"
+	@echo "... Hash/hash.o"
+	@echo "... Hash/hash.i"
+	@echo "... Hash/hash.s"
 	@echo "... Queue/OperationsQueue.o"
 	@echo "... Queue/OperationsQueue.i"
 	@echo "... Queue/OperationsQueue.s"

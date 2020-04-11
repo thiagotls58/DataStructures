@@ -8,6 +8,7 @@
 #include "global.h"
 #include "Queue/Queue.h"
 #include "Stack/Stack.h"
+#include "Hash/hash.h"
 
 char menu(void);
 

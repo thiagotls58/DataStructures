@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/media/thiago/Dacar/CLionProjects/DataStructures/Hash/OperationsHash.c" "/media/thiago/Dacar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/Hash/OperationsHash.c.o"
+  "/media/thiago/Dacar/CLionProjects/DataStructures/Hash/hash.c" "/media/thiago/Dacar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/Hash/hash.c.o"
   "/media/thiago/Dacar/CLionProjects/DataStructures/Queue/OperationsQueue.c" "/media/thiago/Dacar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/Queue/OperationsQueue.c.o"
   "/media/thiago/Dacar/CLionProjects/DataStructures/Queue/Queue.c" "/media/thiago/Dacar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/Queue/Queue.c.o"
   "/media/thiago/Dacar/CLionProjects/DataStructures/Stack/OperationsStack.c" "/media/thiago/Dacar/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/Stack/OperationsStack.c.o"

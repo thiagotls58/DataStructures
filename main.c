@@ -4,6 +4,7 @@ char menu(void) {
     clearTerminal();
     printf("[1] - Stack\n");
     printf("[2] - Queue\n");
+    printf("[3] - Hash\n");
     return toupper(getchar());
 }
 
@@ -23,7 +24,11 @@ void execute(void) {
                 executeQueue();
                 break;
             }
-
+            case '3': {
+                clearTerminal();
+                executeHash();
+                break;
+            }
         }
 
     } while (option != 81); // => Q

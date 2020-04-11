@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/media/thiago/Dacar/CLionProjects/DataStructures/Queue/OperationsQueue.c
-Queue.h
-/media/thiago/Dacar/CLionProjects/DataStructures/Queue/Queue.h
+/media/thiago/Dacar/CLionProjects/DataStructures/Hash/hash.c
+hash.h
+/media/thiago/Dacar/CLionProjects/DataStructures/Hash/hash.h
+
+/media/thiago/Dacar/CLionProjects/DataStructures/Hash/hash.h
+../global.h
+/media/thiago/Dacar/CLionProjects/DataStructures/global.h
 
 /media/thiago/Dacar/CLionProjects/DataStructures/Queue/Queue.c
 Queue.h
@@ -17,6 +21,10 @@ Queue.h
 /media/thiago/Dacar/CLionProjects/DataStructures/Queue/Queue.h
 ../global.h
 /media/thiago/Dacar/CLionProjects/DataStructures/global.h
+
+/media/thiago/Dacar/CLionProjects/DataStructures/Stack/Stack.c
+Stack.h
+/media/thiago/Dacar/CLionProjects/DataStructures/Stack/Stack.h
 
 /media/thiago/Dacar/CLionProjects/DataStructures/Stack/Stack.h
 ../global.h
@@ -31,16 +39,6 @@ stdbool.h
 -
 ctype.h
 -
-
-/media/thiago/Dacar/CLionProjects/DataStructures/main.c
-main.h
-/media/thiago/Dacar/CLionProjects/DataStructures/main.h
-
-/media/thiago/Dacar/CLionProjects/DataStructures/main.h
-global.h
-/media/thiago/Dacar/CLionProjects/DataStructures/global.h
-Queue/Queue.h
-/media/thiago/Dacar/CLionProjects/DataStructures/Queue/Queue.h
-Stack/Stack.h
-/media/thiago/Dacar/CLionProjects/DataStructures/Stack/Stack.h
+string.h
+-
 

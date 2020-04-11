@@ -78,6 +78,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/media/thiago/Dacar/CLionProjects/DataStructures/Hash/OperationsHash.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/media/thiago/Dacar/CLionProjects/DataStructures/Hash/hash.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/media/thiago/Dacar/CLionProjects/DataStructures/Hash/hash.h">
+			<Option target="DataStructures"/>
+		</Unit>
 		<Unit filename="/media/thiago/Dacar/CLionProjects/DataStructures/Queue/OperationsQueue.c">
 			<Option target="DataStructures"/>
 		</Unit>

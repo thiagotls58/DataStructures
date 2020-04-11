@@ -1,5 +1,6 @@
 ## Data Structures 
 - Queue
 - Stack
+- Hash
 
-Next: Simply Linked List
+Next: Binary tree
